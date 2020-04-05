@@ -1,0 +1,27 @@
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color:aqua;
+}
+
+.leftMenu .menu {
+    font-size: x-large;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+    text-align: end;
+}
+
+.leftMenu .menu:hover {
+    font-size: xx-large;
+}
+
+.leftMenu .menu li:hover {
+    font-size: larger;
+}
+
+.navbar .menu {
+    text-align: start;
+}
