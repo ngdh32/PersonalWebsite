@@ -1,0 +1,21 @@
+.divTitle {
+    margin-left: 25%;
+    width: 50%;
+    position: relative;
+    top: 35%;
+    transition: margin 1s ease;
+}
+
+.divTitle.default {
+    margin-left: 23%;
+}
+
+.divTitle p{
+    font-size: xx-large;
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+.divTitle p.default{
+    opacity: 0;
+}

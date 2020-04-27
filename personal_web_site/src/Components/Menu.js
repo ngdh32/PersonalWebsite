@@ -1,16 +1,29 @@
 import React from 'react';
-import '../Styles/Menu.css'
+import '../Styles/Menu.css';
+import {
+    Link
+  } from "react-router-dom";
 
 function Menu() {
     return (
         <div class="menu">
             <div>
                 <ul>
-                    <li>Home</li>
-                    <li>Intro</li>
-                    <li >Skills</li>
-                    <li>Experience</li>
-                    <li>Contact</li>
+                    <li>
+                        <Link to="/">Home</Link>
+                    </li>
+                    <li>
+                        <Link to="/Intro">Intro</Link>
+                    </li>
+                    <li >
+                        <Link to="/Skills">Skills</Link>
+                    </li>
+                    <li>
+                        <Link to="/Experience">Experience</Link>
+                    </li>
+                    <li>
+                        <Link to="/Contact">Contact</Link>
+                    </li>
                 </ul>
             </div>
         </div>

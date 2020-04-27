@@ -5,6 +5,11 @@
     color:aqua;
 }
 
+.menu ul li a{
+    color:aqua;
+    text-decoration-line: none;
+}
+
 .leftMenu .menu {
     font-size: x-large;
     display: flex;
@@ -12,13 +17,18 @@
     justify-content: center;
     flex-direction: column;
     text-align: end;
+    cursor: pointer;
 }
 
 .leftMenu .menu:hover {
     font-size: xx-large;
 }
 
-.leftMenu .menu li:hover {
+.leftMenu .menu a {
+    transition: font-size 0.1s;
+}
+
+.leftMenu .menu a:hover {
     font-size: larger;
 }
 
